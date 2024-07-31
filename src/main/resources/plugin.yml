@@ -1,0 +1,8 @@
+name: HotkeyCommandAndPlayerCanChoose
+version: '${version}'
+main: com.raila23.hotkeycommandandplayercanchoose.HotkeyCommandAndPlayerCanChoose
+api-version: '1.18'
+commands:
+  hc:
+    description: Your command description here
+    usage: /hc <reload/need/noneed/show> <all/shiftQ/shiftHand/q/hand>

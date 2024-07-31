@@ -1,0 +1,22 @@
+Switch:
+  Shift_Hand: true
+  #Shift+F
+  Hand: false
+  #F
+  ShiftQ: false
+  #Shift+Q
+  Q: false
+  #Q
+#⬇⬇ Shift+F时执行的指令，不用加斜杠
+Shift+Hand_command:
+  - 'say ShiftHand'
+#⬇⬇ 按F时执行的指令，不用加斜杠
+Hand_command:
+  - 'say Hand'
+#⬇⬇ Shift+Q时输入的指令，不用加斜杠
+ShiftQ_command:
+  - 'say ShiftQ'
+#⬇⬇ 按Q时输入的指令，不用加斜杠
+Q_command:
+  - 'say Q'
+
